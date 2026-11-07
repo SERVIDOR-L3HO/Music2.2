@@ -1,0 +1,1 @@
+- [Android build toolchain](android-build-toolchain.md) — Replit's default Java module is below this project's Java 21 requirement; API 37 needs the SDK preview package.
