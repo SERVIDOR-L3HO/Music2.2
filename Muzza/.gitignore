@@ -2,6 +2,7 @@
 .cache/android-sdk/
 /test-apks/
 /generated-artifacts/
+/local.properties
 *.apk
 *.aar
 *.ap_
