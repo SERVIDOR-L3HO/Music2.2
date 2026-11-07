@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="welcome_to_muzza">Te damos la bienvenida a AuraSound</string>
+    <string name="aura_splash_tagline">TU MÚSICA, A TU MANERA</string>
     <!-- Bottom navigation -->
     <string name="home">Inicio</string>
     <string name="songs">Canciones</string>
@@ -32,7 +34,7 @@
     <string name="most_played_albums">Álbumes más reproducidos</string>
     <!-- Search -->
     <string name="search">Buscar</string>
-    <string name="search_yt_music">Buscar en Muzza</string>
+    <string name="search_yt_music">Buscar en AuraSound</string>
     <string name="search_library">Buscar en la biblioteca…</string>
     <string name="filter_library">Biblioteca</string>
     <string name="filter_liked">Me gusta</string>
@@ -276,7 +278,7 @@
     <string name="backup_create_failed">No se ha podido crear la copia de seguridad</string>
     <string name="restore_failed">Error al restaurar la copia de seguridad</string>
     <string name="discord_integration">Integración con Discord</string>
-    <string name="discord_information">Muzza utiliza la biblioteca KizzyRPC para establecer el estado de tu cuenta de Discord. Esto implica el uso de la conexión Discord Gateway, lo que podría considerarse una violación de las condiciones del servicio de Discord. Sin embargo, no se conocen casos de cuentas de usuario suspendidas por este motivo. Úsalo bajo tu propio riesgo.\n\nMuzza solo extraerá tu token y todo lo demás se almacena localmente.</string>
+    <string name="discord_information">AuraSound utiliza la biblioteca KizzyRPC para establecer el estado de tu cuenta de Discord. Esto implica el uso de la conexión Discord Gateway, lo que podría considerarse una violación de las condiciones del servicio de Discord. Sin embargo, no se conocen casos de cuentas de usuario suspendidas por este motivo. Úsalo bajo tu propio riesgo.\n\nAuraSound solo extraerá tu token y todo lo demás se almacena localmente.</string>
     <string name="dismiss">Descartar</string>
     <string name="options">Opciones</string>
     <string name="preview">Vista previa</string>

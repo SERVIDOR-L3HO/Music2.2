@@ -1,5 +1,12 @@
 <resources>
 
+    <style name="Theme.Muzza">
+        <item name="android:windowSplashScreenBackground">@color/aura_splash_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/aurasound_icon</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/aura_splash_icon_background</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/aurasound_wordmark</item>
+    </style>
+
     <style name="Widget.Muzza.AppWidget.Container" parent="android:Widget">
         <item name="android:id">@android:id/background</item>
         <item name="android:padding">?attr/appWidgetPadding</item>

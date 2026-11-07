@@ -41,8 +41,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.BlendMode
-import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.platform.UriHandler
 import androidx.compose.ui.res.painterResource
@@ -94,12 +92,9 @@ fun SettingsScreen(
                 .background(MaterialTheme.colorScheme.surfaceColorAtElevation(NavigationBarDefaults.Elevation))
         ) {
             Image(
-                painterResource(R.drawable.muzza_monochrome),
-                colorFilter = ColorFilter.tint(
-                    MaterialTheme.colorScheme.onBackground,
-                    BlendMode.SrcIn
-                ),
-                contentDescription = null
+                painter = painterResource(R.drawable.aurasound_icon),
+                contentDescription = null,
+                modifier = Modifier.size(72.dp).clip(CircleShape)
             )
             Box(
                 modifier = Modifier

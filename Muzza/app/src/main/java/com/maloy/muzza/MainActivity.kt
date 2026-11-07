@@ -17,6 +17,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.RequiresApi
 import androidx.compose.animation.Crossfade
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
@@ -143,6 +144,8 @@ import com.maloy.muzza.playback.MusicService.MusicBinder
 import com.maloy.muzza.playback.PlayerConnection
 import com.maloy.muzza.playback.queues.YouTubeQueue
 import com.maloy.muzza.ui.component.BottomSheetMenu
+import com.maloy.muzza.ui.component.AuraSoundBrandLockup
+import com.maloy.muzza.ui.component.AuraSoundSplashScreen
 import com.maloy.muzza.ui.component.IconButton
 import com.maloy.muzza.ui.component.LocalMenuState
 import com.maloy.muzza.ui.component.TopSearch
@@ -303,6 +306,12 @@ class MainActivity : ComponentActivity() {
         updateLanguage(this, savedLanguage)
 
         setContent {
+
+            var showAuraSoundSplash by rememberSaveable { mutableStateOf(true) }
+            LaunchedEffect(Unit) {
+                delay(1_500)
+                showAuraSoundSplash = false
+            }
 
             var showBadge by remember { mutableStateOf(false) }
             var latestVersion by remember { mutableStateOf("") }
@@ -749,15 +758,6 @@ class MainActivity : ComponentActivity() {
                             navigationBuilder(navController, TopAppBarScrollBehavior)
                         }
 
-                        val currentTitle = remember(navBackStackEntry) {
-                            when (navBackStackEntry?.destination?.route) {
-                                Screens.Home.route -> R.string.home
-                                Screens.Explore.route -> R.string.explore
-                                Screens.Library.route -> R.string.filter_library
-                                else -> null
-                            }
-                        }
-
                         val accountImageUrl by rememberPreference(AccountImageUrlKey, "")
                         val (innerTubeCookie) = rememberPreference(
                             InnerTubeCookieKey, ""
@@ -769,10 +769,7 @@ class MainActivity : ComponentActivity() {
                         if (!active && navBackStackEntry?.destination?.route in topLevelScreens && navBackStackEntry?.destination?.route != "settings") {
                             CenterAlignedTopAppBar(
                                 title = {
-                                    Text(
-                                        text = currentTitle?.let { stringResource(it) } ?: "",
-                                        style = MaterialTheme.typography.titleLarge,
-                                    )
+                                    AuraSoundBrandLockup()
                                 },
                                 actions = {
                                     IconButton(
@@ -1163,6 +1160,15 @@ class MainActivity : ComponentActivity() {
                             }
                             openSearchImmediately = false
                         }
+                    }
+
+                    AnimatedVisibility(
+                        visible = showAuraSoundSplash,
+                        enter = fadeIn(tween(120)),
+                        exit = fadeOut(tween(420)),
+                        modifier = Modifier.fillMaxSize()
+                    ) {
+                        AuraSoundSplashScreen()
                     }
                 }
             }

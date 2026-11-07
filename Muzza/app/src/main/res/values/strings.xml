@@ -1,7 +1,8 @@
 <resources>
 
     <!-- Setup wizard -->
-    <string name="welcome_to_muzza">Welcome to Muzza</string>
+    <string name="welcome_to_muzza">Welcome to AuraSound</string>
+    <string name="aura_splash_tagline">YOUR MUSIC, YOUR WAY</string>
     <string name="yt_music_fingertips">YouTube Music at your fingertips</string>
     <string name="ytm_account_sync">YouTube-Music account synchronization</string>
     <string name="ad_free_playback">AD free playback</string>
@@ -88,7 +89,7 @@
 
     <!-- Search -->
     <string name="search">Search</string>
-    <string name="search_yt_music">Search Muzza</string>
+    <string name="search_yt_music">Search AuraSound</string>
     <string name="search_library">Search library…</string>
     <string name="SearchHistory">Search History</string>
     <string name="Sujestions">Suggestions</string>
@@ -319,7 +320,7 @@
     <!-- Notifications settings -->
     <string name="notifications">Notifications</string>
     <string name="keep_alive_title">Prevent system killing app</string>
-    <string name="keep_alive_description">Use a foreground notification to prevent Muzza from being randomly closed by the system.</string>
+    <string name="keep_alive_description">Use a foreground notification to prevent AuraSound from being randomly closed by the system.</string>
     <string name="notifications_settings">Notifications settings</string>
     <string name="notification_permission_is_required">Notification permission is required</string>
     <string name="advanced_notification_settings_title">Advanced notification settings</string>
@@ -344,9 +345,9 @@
     <string name="dark_theme_follow_system">Follow system</string>
     <string name="pure_black">Pure black</string>
     <string name="listen_youtube_music">Listen on YouTube Music</string>
-    <string name="visit_muzza">Visit Muzza</string>
+    <string name="visit_muzza">Visit AuraSound</string>
     <string name="artist">Artist</string>
-    <string name="listen_to_muzza">Listen to Muzza</string>
+    <string name="listen_to_muzza">Listen to AuraSound</string>
     <string name="enable_swipe_thumbnail">Enable swipe on thumbnail to change song</string>
     <string name="customize_navigation_tabs">Customize navigation tabs</string>
     <string name="player">Player</string>
@@ -397,8 +398,8 @@
     <string name="help_text">Contact Dev ❯</string>
     <string name="contribution">Contribution ?</string>
     <string name="contribution_text">If you want to contribute, click here ❯</string>
-    <string name="donate_help">Please support me with a donation to further developing Muzza ❯</string>
-    <string name="telegram_info">Official channel with new news and Muzza development process ❯</string>
+    <string name="donate_help">Please support me with a donation to further developing AuraSound ❯</string>
+    <string name="telegram_info">Official channel with new news and AuraSound development process ❯</string>
     <string name="my_channel">My Telegram channel</string>
     <string name="my_channel_info">A channel about my life ❯</string>
     <string name="Developer">Developer ❯</string>
@@ -521,7 +522,7 @@
     <string name="restore_backup_newer_version">This backup was created with a newer version of the app. Update the app before restoring it.</string>
 
     <string name="discord_integration">Discord Integration</string>
-    <string name="discord_information">Muzza uses the KizzyRPC library to set your Discord account\'s status. This involves using the Discord Gateway connection, which may be considered a violation of Discord\'s TOS. However, there are no known cases of user accounts being suspended for this reason. Use at your own risk.\n\nMuzza will only extract your token, and everything else is stored locally.</string>
+    <string name="discord_information">AuraSound uses the KizzyRPC library to set your Discord account\'s status. This involves using the Discord Gateway connection, which may be considered a violation of Discord\'s TOS. However, there are no known cases of user accounts being suspended for this reason. Use at your own risk.\n\nAuraSound will only extract your token, and everything else is stored locally.</string>
     <string name="dismiss">Dismiss</string>
     <string name="options">Options</string>
     <string name="preview">Preview</string>
@@ -530,7 +531,7 @@
     <string name="enable_discord_rpc">Enable Rich Presence</string>
     <string name="discord_use_details">Use details instead of state</string>
     <string name="discord_use_details_description">Show song title prominently instead of artist names</string>
-    <string name="muzza_listening">Muzza listening</string>
+    <string name="muzza_listening">AuraSound listening</string>
     <string name="login_by_token">Login by token</string>
 
     <string name="about">About</string>
@@ -555,7 +556,7 @@
     <string name="import_failed_songs">Could not import</string>
     <string name="import_success_songs">Successfully imported</string>
     <string name="m3u_import_playlist">Import a playlist (m3u)</string>
-    <string name="m3u_import_playlist_description">Bring your favorite playlists from other apps and services directly into Muzza.</string>
+    <string name="m3u_import_playlist_description">Bring your favorite playlists from other apps and services directly into AuraSound.</string>
     <string name="m3u_import_playlist_failed">Failed to import</string>
 
     <!-- Spotify import settings -->

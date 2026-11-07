@@ -5,4 +5,6 @@
     <color name="light_blue_900">#FF01579B</color>
     <color name="Lights">#FFFFFF</color>
     <color name="white_30">#4DFFFFFF</color>
+    <color name="aura_splash_background">#090B24</color>
+    <color name="aura_splash_icon_background">#11143B</color>
 </resources>
