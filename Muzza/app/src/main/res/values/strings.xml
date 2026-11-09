@@ -640,7 +640,14 @@ DO NOT PANIC IF IT LOOKS STUCK; sometimes retrieval may take some time.</string>
     <string name="listen_together_cannot_edit_username_in_room">Cannot edit username while in a room</string>
     <string name="error_username_empty">Username is required.</string>
 
-    <string name="palette_dynamic">Dynamic</string>
+    <string name="palette_dynamic">From wallpaper</string>
+    <string name="palette_afterglow">Afterglow</string>
+    <string name="palette_velvet">Velvet</string>
+    <string name="palette_blue_note">Blue Note</string>
+    <string name="palette_after_rain">After Rain</string>
+    <string name="palette_golden_hour">Golden Hour</string>
+    <string name="palette_side_b">Side B</string>
+    <string name="palette_custom">Current color</string>
     <string name="palette_crimson">Crimson</string>
     <string name="palette_rose">Rose</string>
     <string name="palette_purple">Purple</string>
@@ -673,4 +680,16 @@ DO NOT PANIC IF IT LOOKS STUCK; sometimes retrieval may take some time.</string>
     <string name="theme_mode">Theme Mode</string>
     <string name="color_palette">Color Palette</string>
     <string name="use_system_colors">Use system colors</string>
+    <string name="theme_preview">Theme preview</string>
+    <string name="theme_mode_system">System</string>
+    <string name="theme_mode_light">Light</string>
+    <string name="theme_mode_dark">Dark</string>
+    <string name="theme_mode_black">Pure black</string>
+    <string name="cd_theme_mode">%1$s appearance option</string>
+    <string name="cd_theme_preview">AuraSound preview using the %1$s palette</string>
+    <string name="theme_preview_now_playing">Now playing</string>
+    <string name="theme_preview_track">Night Drive</string>
+    <string name="theme_preview_artist">Mira Sol</string>
+    <string name="theme_preview_album">After Hours · 2024</string>
+    <string name="theme_preview_queue">Next in queue</string>
 </resources>
