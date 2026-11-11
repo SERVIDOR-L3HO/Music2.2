@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Setup wizard -->
-    <string name="welcome_to_muzza">Добро пожаловать в Muzza</string>
+    <string name="welcome_to_muzza">Добро пожаловать в AuraSound</string>
     <string name="yt_music_fingertips">YouTube-Music всегда под рукой</string>
     <string name="ytm_account_sync">Синхронизация с аккаунтом YouTube-Music</string>
     <string name="ad_free_playback">Воспроизведение без рекламы</string>
@@ -82,7 +82,7 @@
 
     <!-- Search -->
     <string name="search">Поиск</string>
-    <string name="search_yt_music">Поиск в Muzza</string>
+    <string name="search_yt_music">Поиск в AuraSound</string>
     <string name="SearchHistory">История поиска</string>
     <string name="Sujestions">Предложения</string>
     <string name="SearchResutls">Результаты поиска</string>
@@ -338,7 +338,7 @@
     <!-- Notifications settings -->
     <string name="notifications">Уведомления</string>
     <string name="keep_alive_title">Предотвратить закрытие приложения системой</string>
-    <string name="keep_alive_description">Используйте уведомление в фоновом режиме, чтобы предотвратить случайное закрытие Muzza системой.</string>
+    <string name="keep_alive_description">Используйте уведомление в фоновом режиме, чтобы предотвратить случайное закрытие AuraSound системой.</string>
     <string name="notifications_settings">Настройки уведомлений</string>
     <string name="notification_permission_is_required">Требуется разрешение на уведомления</string>
     <string name="advanced_notification_settings_title">Расширенные настройки уведомлений</string>
@@ -352,9 +352,9 @@
     <string name="proxy">ПРОКСИ</string>
     <string name="enable_dynamic_theme">Включить динамическую тему</string>
     <string name="listen_youtube_music">Слушать в YouTube Music</string>
-    <string name="visit_muzza">Посетить Muzza</string>
+    <string name="visit_muzza">Посетить AuraSound</string>
     <string name="artist">Исполнитель</string>
-    <string name="listen_to_muzza">Слушать в Muzza</string>
+    <string name="listen_to_muzza">Слушать в AuraSound</string>
     <string name="mini_player_style">Стиль мини плеера</string>
     <string name="player_style">Стиль плеера</string>
     <string name="player_style_old">Старый</string>
@@ -407,8 +407,8 @@
     <string name="help_text">Связаться с разработчиком ❯</string>
     <string name="contribution">Вклад?</string>
     <string name="contribution_text">Если вы хотите внести вклад, нажмите здесь ❯</string>
-    <string name="donate_help">Пожалуйста, поддержите меня пожертвованием для дальнейшей разработки Muzza ❯</string>
-    <string name="telegram_info">Официальный канал с новыми новостями и процессом разработки Muzza ❯</string>
+    <string name="donate_help">Пожалуйста, поддержите меня пожертвованием для дальнейшей разработки AuraSound ❯</string>
+    <string name="telegram_info">Официальный канал с новыми новостями и процессом разработки AuraSound ❯</string>
     <string name="my_channel">Мой Telegram канал</string>
     <string name="my_channel_info">Канал о моей жизни ❯</string>
     <string name="Developer">Разработчик ❯</string>
@@ -551,7 +551,7 @@
     <string name="restore_failed">Не удалось восстановить резервную копию</string>
 
     <string name="discord_integration">Интеграция с Discord</string>
-    <string name="discord_information">Muzza использует библиотеку KizzyRPC для установки статуса вашего аккаунта Discord. Это включает использование соединения через Discord Gateway, что может считаться нарушением условий использования Discord. Однако, на данный момент нет известных случаев блокировки учетных записей пользователей по этой причине. Используйте на свой страх и риск.\n\nMuzza будет извлекать только ваш токен, а все остальное хранится локально.</string>
+    <string name="discord_information">AuraSound использует библиотеку KizzyRPC для установки статуса вашего аккаунта Discord. Это включает использование соединения через Discord Gateway, что может считаться нарушением условий использования Discord. Однако, на данный момент нет известных случаев блокировки учетных записей пользователей по этой причине. Используйте на свой страх и риск.\n\nAuraSound будет извлекать только ваш токен, а все остальное хранится локально.</string>
     <string name="dismiss">Закрыть</string>
     <string name="options">Настройки</string>
     <string name="preview">Предпросмотр</string>
@@ -560,7 +560,7 @@
     <string name="enable_discord_rpc">Включить Rich Presence</string>
     <string name="discord_use_details">Использовать детали вместо состояния</string>
     <string name="discord_use_details_description">Показывать название песни на видном месте вместо имен исполнителей</string>
-    <string name="muzza_listening">Muzza слушает</string>
+    <string name="muzza_listening">AuraSound слушает</string>
     <string name="login_by_token">Вход при помощи токена</string>
 
     <string name="about">О приложении</string>
@@ -580,7 +580,7 @@
     <string name="import_failed_songs">Не удалось импортировать</string>
     <string name="import_success_songs">Успешно импортировано</string>
     <string name="m3u_import_playlist">Импортировать плейлист (m3u)</string>
-    <string name="m3u_import_playlist_description">Переносите свои любимые плейлисты из других приложений и сервисов прямо в Muzza.</string>
+    <string name="m3u_import_playlist_description">Переносите свои любимые плейлисты из других приложений и сервисов прямо в AuraSound.</string>
     <string name="m3u_import_playlist_failed">Ошибка импорта</string>
 
     <string name="generating_image">Генерация изображения</string>

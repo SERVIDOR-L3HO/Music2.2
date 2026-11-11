@@ -1,0 +1,1 @@
+- [Android app identity](android-app-identity.md) — keep the package ID stable during display-name changes unless a new install identity is explicitly requested.
