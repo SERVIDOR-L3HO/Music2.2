@@ -72,7 +72,7 @@ abstract class GenerateProtoTask : DefaultTask() {
 
 android {
     namespace = "com.maloy.muzza"
-    compileSdk = 37
+    compileSdk = 36
     buildToolsVersion = "36.0.0"
     defaultConfig {
         applicationId = "com.maloy.muzza"
