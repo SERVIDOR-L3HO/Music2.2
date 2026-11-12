@@ -16,7 +16,7 @@ ktor = "3.1.2"
 ksp = "2.3.12"
 kotlinVersion = "2.0.20"
 cardview = "1.0.0"
-protobuf = "4.34.1"
+protobuf = "3.25.5"
 animationCore = "1.11.0"
 material = "1.13.0"
 

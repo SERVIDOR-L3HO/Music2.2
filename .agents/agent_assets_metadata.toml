@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "3UMkWqbqGzV7JhFrrSNnU"
+uri = "file://Muzza/app/build/outputs/apk/full/debug/AuraSound-full-debug.apk.zip"
+type = "unspecified"
+title = "AuraSound — APK para probar (ZIP)"
+description = "Descarga y extrae el ZIP para obtener el APK firmado de depuración. Paquete com.maloy.muzza.debug; Android 7.0 o posterior."
+logical_id = "9aefc16d-eb78-435d-98db-af5e5d108a9f"
+content_hash = "sha256:1ddbed2457c427d99b6eb1a54d4f6da0c60079c208b5e3faf88defdf93c0496c"
+size = 75209992
+mtime_ms = 1794448730585
+storage_uri = "gcs://replit-rams-assets-spock/rams/assets/repl:545010ec-0fc3-43df-9cda-b6602c10aa84/9aefc16d-eb78-435d-98db-af5e5d108a9f/a1c7c4d3-438f-4548-a6da-d6346f6eab12"
+storage_version_token = "1794448763703165"
+content_type = "application/octet-stream"

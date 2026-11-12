@@ -1,1 +1,2 @@
 - [Android app identity](android-app-identity.md) — keep the package ID stable during display-name changes unless a new install identity is explicitly requested.
+- [Android SDK platform labels](android-sdk-platforms.md) — API 37 is published as `android-37.0`; use that exact package with Gradle `compileSdk = 37`.

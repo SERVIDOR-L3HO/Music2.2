@@ -66,13 +66,22 @@ abstract class GenerateProtoTask : DefaultTask() {
                 protoFile.absolutePath,
             )
         }
+        // Protobuf 3.x's lite runtime does not include this file annotation.
+        outputDir.resolve("com/maloy/muzza/listentogether/proto")
+            .walkTopDown()
+            .filter { it.isFile && it.extension == "kt" }
+            .forEach { source ->
+                val original = source.readText()
+                val compatible = original.replace("@file:com.google.protobuf.Generated\n", "")
+                if (compatible != original) source.writeText(compatible)
+            }
         logger.lifecycle("Protobuf files generated successfully")
     }
 }
 
 android {
     namespace = "com.maloy.muzza"
-    compileSdk = 36
+    compileSdk = 37
     buildToolsVersion = "36.0.0"
     defaultConfig {
         applicationId = "com.maloy.muzza"
